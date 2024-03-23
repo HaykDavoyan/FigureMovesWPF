@@ -1,0 +1,29 @@
+﻿<Window 
+    x:Class="ChessFiguresWPF.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Canvas Name="ChessBoardCanvas" Height="400" Width="400" MouseLeftButtonDown="ChessBoardCanvas_MouseLeftButtonDown">
+                <Image Source="/jpg/ChessBoard1.png" Cursor="Hand" Stretch="Fill" Width="400" Height="400" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Canvas>
+        </Grid>
+        <ComboBox Name="Color" HorizontalAlignment="Left" Height="31" Margin="634,76,0,0" VerticalAlignment="Top" Width="102">
+            <ComboBoxItem Content="Black"/>
+            <ComboBoxItem Content="White"/>
+        </ComboBox>
+        <ComboBox Name="Figure" HorizontalAlignment="Left" Height="31" Margin="634,142,0,0" VerticalAlignment="Top" Width="102">
+            <ComboBoxItem Content="Pawn"/>
+            <ComboBoxItem Content="Bishop"/>
+            <ComboBoxItem Content="Rook"/>
+            <ComboBoxItem Content="Queen"/>
+            <ComboBoxItem Content="King"/>
+            <ComboBoxItem Content="Knight"/>
+        </ComboBox>
+        <Button Name="ClearButton" Content="Clear" HorizontalAlignment="Left" Cursor="Hand" Height="38" Margin="639,303,0,0" VerticalAlignment="Top" Width="97" Click="ClearButton_Click"/>
+    </Grid>
+</Window>

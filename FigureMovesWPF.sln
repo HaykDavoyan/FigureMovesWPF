@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureMovesWPF", "FigureMovesWPF\FigureMovesWPF.csproj", "{8522D9C9-2979-49DA-8E40-9B870CBC44F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8522D9C9-2979-49DA-8E40-9B870CBC44F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8522D9C9-2979-49DA-8E40-9B870CBC44F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8522D9C9-2979-49DA-8E40-9B870CBC44F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8522D9C9-2979-49DA-8E40-9B870CBC44F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73411E2B-76D9-4AC2-AC5B-98CCB00E66A1}
+	EndGlobalSection
+EndGlobal
